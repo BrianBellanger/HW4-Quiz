@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+    <header>
+        <h1>JavaScript Quiz</h1>
+        <h2 class="timer" id="timer" style="text-align:center;">Timer</h2>
+    </header>
+  
+    <body>
+    <div class="QuizMain">
+          <div class="card">
+            <h2><span id="questionText"></span></h2>
+            <p><span id="responseA"></span></p>
+            <p><span id="responseB"></span></p>
+            <p><span id="responseC"></span></p>
+            <p><span id="responseD"></span></p>
+            <p><span id="result"></span></p>
+          </div>
+    </div>
+
+    <script src="script.js"></script>
+
+          <button onclick="startQuiz()">Start Quiz</button>
+ 
+  </body>
+
+  <footer>
+    <button onclick="highScores()" class="scores" id="scores">High Scores</button>
+  </footer>
+
+</html>
